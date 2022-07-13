@@ -32,7 +32,7 @@ spec:
     app: myapp
 
   ports:
-    - port: 8080
+    - port: 8088
       targetPort: http-web-svc
       protocol: TCP
       nodePort: 30163
